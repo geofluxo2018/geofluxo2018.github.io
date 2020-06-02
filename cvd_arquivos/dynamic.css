@@ -1,0 +1,96 @@
+.chart div {
+  background-color: gray;
+  margin: 3px;
+  box-shadow: 0px 0px 3px rgba(50,50,50,0.3);
+}
+
+.striped-line{
+  height: 6px;
+  width: 100%;
+  opacity: 0.8;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffc107,
+    #ffc107 5px,
+    #f1f1f1 5px,
+    #f1f1f1 10px,
+    #dc3545 10px,
+    #dc3545 15px,
+    #f1f1f1 15px,
+    #f1f1f1 20px,
+    #17a2b8 20px,
+    #17a2b8 25px,
+    #f1f1f1 25px,
+    #f1f1f1 30px
+  );
+}
+
+.slider-death-rate .noUi-connect:nth-child(1) {
+  background: #343a40 !important;
+}
+
+.slider-no-people .noUi-connect:nth-child(1) {
+  background: #ffc107 !important;
+  opacity: 0.7;
+}
+
+.slider-no-people .noUi-connect:nth-child(2) {
+  background: #dc3545 !important;
+  opacity: 0.85;
+}
+
+.slider-prob-infec .noUi-connect {
+  background: #dc3545 !important;
+  opacity: 0.85;
+}
+
+.slider-recovery-time .noUi-connect {
+  background: #17a2b8 !important;
+  opacity: 0.8;
+}
+
+.scaling-svg {
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+}
+
+.scaling-svg-container {
+ position: relative;
+ left:0;
+ top:0;
+ width:100%;
+ height: auto;
+}
+
+.noUi-pips-horizontal{
+  font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
+}
+
+.slider-no-people .noUi-value-sub {
+  display: none;
+}
+
+.slider-no-people .noUi-marker-horizontal.noUi-marker {
+  width: 1px;
+  background-color: #d1d1d1;
+}
+
+/* #slider-no-people .noUi-marker-sub {
+  display: none;
+}
+
+#slider-no-people .noUi-marker-sub:nth-of-type(4n) {
+  display: block;
+} */
+
+
+input{
+    font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
+}
+
+.btn{
+  font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
+}
